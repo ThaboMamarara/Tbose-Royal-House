@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'CursiveFont', cursive;
+        }
+
+        nav {
+            background-color: #ddd;
+            padding: 0.5em;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 1em;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: static;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: TboseRH@gmail.com</p>
+            <p>Telephone: 076 847 5096</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+<br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+<br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+<br>
+
+                <label for="service">Type of Service:</label>
+                <select id="service" name="service">
+                    <option value="wedding">Wedding Planning & Deco</option>
+                    <option value="event">Event Planning & Deco</option>
+                    <option value="birthday">Birthday Planning & Deco</option>
+                    <option value="babyshower">Baby Shower Planning & Deco</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <img src="logo2.png" alt="Company Logo">
+    </footer>
+
+</body>
+</html>

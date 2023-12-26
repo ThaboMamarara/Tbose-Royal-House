@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'CursiveFont', cursive;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 0.5em;
+        }
+
+        nav a:hover {
+            background-color: #ffffff92;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: static;
+            bottom: 0;
+            width: 100%;
+           
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Our Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#about us">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+    <h2>Our Beautiful Gallery</h2>
+
+    <div class="gallery">
+        <img src="Decor 1.jpg" alt="Image 1">
+        <img src="decor 2.jpg" alt="Image 2">
+        <img src="decor 3.jpg" alt="Image 3">
+        <img src="decor 4.jpg" alt="Image 4">
+        <img src="decor 5.jpg" alt="Image 5">
+        <img src="decor 6.jpg" alt="Image 6">
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Image Gallery. All rights reserved.</p>
+        <img src="logo2.png" alt="Company Logo">
+    </footer>
+
+</body>
+</html>
