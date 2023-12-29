@@ -6,23 +6,27 @@
     <title>Our Services</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Consolas', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            background-color: #f1eef1;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #6e1186;
+            color: #6eaab9;
             text-align: center;
-            padding: 1em;
+            padding: 0.001em;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            font-family: 'CursiveFont', cursive;
+            font-family: 'Freestyle Script', cursive;
+        }
+
+        header h1 {
+            font-size: 3em; /* Adjust the size as needed */
         }
 
         nav {
-            background-color: #ddd;
+            background-color: #6eaab9;
             padding: 0.5em;
             text-align: left; /* Align text to the left */
         }
@@ -36,13 +40,15 @@
         }
 
         nav a {
-            color: #333;
+            color: #000000;
             text-decoration: none;
-            padding: 1em;
+            padding: 0.5em;
+            
         }
 
         nav a:hover {
-            background-color: #555;
+            background-color: #ffffff92;
+            
         }
 
         main {
@@ -51,7 +57,7 @@
         }
 
         .service {
-            background-color: #fff;
+            background-color: #6eaab9;
             border-radius: 10px;
             padding: 20px;
             margin: 20px;
@@ -59,7 +65,7 @@
         }
 
         footer {
-            background-color: #333;
+            background-color: #6e1186;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -67,24 +73,54 @@
             bottom: 0;
             width: 100%;
         }
+
+        #instagram-container {
+            text-align: center;
+        }
+
+        #instagram-icon {
+            width: 30px; 
+            height: 30px;
+        }
+
+        #social-media-container {
+            text-align: center;
+        }
+
+        .social-media-icon {
+            width: 30px; 
+            height: 30px;
+            margin: 0 10px; 
+        }
+
+        
+
     </style>
 </head>
 <body>
 
+
     <header>
+        
         <h1>Our Services</h1>
     </header>
 
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="gallery.html">Gallery</a></li> <!-- Link to your gallery page -->
             <li><a href="#contact">Contact</a></li>
         </ul>
+
+      
     </nav>
 
     <main>
+
+        <img src="Logo5.jpg" alt="Your Logo" style="max-width: 300px; height: auto;">
+
+
         <div class="service">
             <h2>Wedding Planning & Deco</h2>
             <p>We specialize in creating magical weddings tailored to your dreams. From planning to decoration, we ensure your special day is unforgettable.</p>
@@ -104,11 +140,34 @@
             <h2>Baby Shower Planning & Deco</h2>
             <p>Welcome your little one with joy and style. Our baby shower planning and decoration services create a charming and memorable celebration.</p>
         </div>
+
+        <div class="service">
+            <h2>Unveiling Planning & Deco</h2>
+            <p> Allow us to honor your loved one's legacy with a dignified and heartfelt unveiling ceremony, commemorating their life in a moment of grace and remembrance.</p>
+        </div>
+
     </main>
 
+    <div id="instagram-container">
+        <a href="https://www.instagram.com/tboseroyalhouse" target="_blank" rel="noopener noreferrer">
+            <img id="instagram-icon" src="Instagram Logo.jpg" alt="Instagram">
+        </a>
+    </div>
+
+    <div id="social-media-container">
+        <!-- Facebook icon with link -->
+        <a href="https://www.facebook.com/profile.php?id=61554814683018&mibextid=nwBsNb" target="_blank" rel="noopener noreferrer">
+            <img class="social-media-icon" src="Facebook Logo.png" alt="Facebook">
+        </a>
+    </div>    
+
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-        <img src="logo2.png" alt="Company Logo">
+        <p>076 847 5096</p>
+
+        <p>tboseroyalhouse@gmail.com</p>
+
+        <p>&copy; 2023 Tbose Royal House. All rights reserved.</p>
+
     </footer>
 
 </body>
